@@ -1,0 +1,19 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node ./bin/www",
+     "devstart": "SET NODE_ENV=dev && nodemon ./bin/www",
+      "test": "mocha --timeout 50000"  
+  },
+  "author": "thanhnv",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "mocha": "^8.3.2",
+    "selenium-webdriver": "^4.0.0-beta.2"
+  }
+}
